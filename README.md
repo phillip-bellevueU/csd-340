@@ -2,4 +2,4 @@
 ## Contributors
 - Joseph Issa
 - Phillip Thoendel
-web dev class
+  
