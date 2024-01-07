@@ -1,2 +1,5 @@
-# csd-340
-web dev class
+# CSD 340 Web Development with HTML and CSS
+## Contributors
+- Joseph Issa
+- Phillip Thoendel
+  
