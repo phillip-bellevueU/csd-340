@@ -1,0 +1,62 @@
+body{
+    background-color:   #f3f0e7;
+    font-family: Arial;
+    
+}
+.container{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+h1{
+    background-color:  #bd806d;
+    padding: 10px;
+    border-style: solid;
+    border-width: 1px;
+}
+h2{
+    background-color: 	  #dfb591;
+    padding: 10px;
+    border-style: solid;
+    border-width: 1px;
+}
+h3{
+    background-color:  #dbc5a5 ;
+    padding: 10px;
+    border-style: solid;
+    border-width: 1px;
+}
+h4{
+    background-color:   #eedfd7  ;
+    padding: 10px;
+    border-style: solid;
+    border-width: 1px;
+}
+a{
+    text-decoration: none;
+    color:#351d1b ;
+
+}
+a:visited{
+    color:   #81272e   ;
+
+}
+a:hover{
+    color:	#cc9a86 ;
+    text-decoration: underline;
+}
+
+/*  pallets
+    #eedfd7 	(238,223,215)
+	#dfb591 	(223,181,145)
+	#a15755 	(161,87,85)
+	#81272e 	(129,39,46)
+	#351d1b 	(53,29,27) 
+    
+    
+    #f3f0e7 	(243,240,231)
+	#dbc5a5 	(219,197,165)
+	#cc9a86 	(204,154,134)
+	#bd806d 	(189,128,109)
+	 	(140,117,106)
+    */
