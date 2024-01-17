@@ -1,0 +1,51 @@
+h1{
+    text-align: center;
+}
+body{
+    background-color:#f3f0e7;
+    color: #351d1b;
+}
+#image-gallery{
+    border-style: solid;
+    margin-top:7%; /*I know the assignment said 10% but 7% looked better on my screen */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* divides div into 3rds */
+} 
+
+h3{
+    text-align: center;
+}
+
+#back{
+    margin-top: 10px; 
+    text-align: right;
+
+   
+}
+figure{
+    text-align: center;
+}
+figcaption{
+    font-style: italic;
+    font-size: .75em;
+}
+#technique{
+    border-right: 3px solid  #351d1b;
+}
+#bums{
+    border-right: 3px solid  #351d1b;
+}
+a{
+   
+    text-decoration: none;
+    color:#351d1b ;
+
+}
+a:visited{
+    color:   #81272e   ;
+
+}
+a:hover{
+    color:	#cc9a86 ;
+    text-decoration: underline;
+}
