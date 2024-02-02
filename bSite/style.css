@@ -1,0 +1,24 @@
+/*color pallette
+#C7BB8B
+#949185
+#FAE17D
+#615B44
+#332E1A
+*/
+
+body{
+    background-color:#C7BB8B;
+    color: #332E1A;
+}
+#color1{
+    background-color:#949185;
+}
+#color2{
+    background-color:#FAE17D;
+}
+#color3{
+    background-color:#615B44;
+}
+#color4{
+    background-color:#332E1A;
+}
