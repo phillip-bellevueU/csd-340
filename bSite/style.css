@@ -8,7 +8,7 @@
 
 body{
     background-color:whitesmoke;
-    color: #332E1A;
+    color: #101010;
     text-align: center;
     font-family: Arial;
 }
@@ -20,7 +20,7 @@ body{
     width: 500px;
     margin: auto;
     margin-top: 12px;
-    
+    border-radius: 6pt;
     
 }
 #color2{
@@ -31,6 +31,9 @@ body{
     width: 500px;
     margin: auto;
     margin-top: 12px;
+    border-radius: 6pt;
+    
+   
 
 
 }
@@ -42,6 +45,7 @@ body{
     width: 500px;
     margin: auto;
     margin-top: 12px;
+    border-radius: 6pt;
     /*color:#FAE17D;*/
 
 }
@@ -53,6 +57,7 @@ body{
     margin: auto;
     margin-top: 12px;
     width: 500px;
+    border-radius: 6pt;
    
     
   /*  color:#FAE17D;*/
@@ -60,12 +65,12 @@ body{
 .daveFace{
     width: 400px;
     height: 400px;
-    background-color: #FAE17D;
+    
     border-radius: 50%;
     position: relative;
     margin: 0 auto;
     margin-top: 50px;
-    border: 5px solid #615B44;
+    border: 5px solid #101010;
     margin: center;
     margin-bottom: 18px;
 }
@@ -79,6 +84,7 @@ body{
     border-color: #332E1A;
     width: 500px;
     margin: auto;
+    border-radius: 6pt;
 }
 /*#indexfooter{
     background-color: #949185;
@@ -244,6 +250,7 @@ body{
     margin: 0 auto;
     margin-top: 96px;
     background-color: white;
+    margin-bottom: 8px;
 }
 #hobby-list{
     width: 60%;
