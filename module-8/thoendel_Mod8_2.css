@@ -1,0 +1,134 @@
+
+/*
+Color Pallet
+
+#CCB0A5
+#FFB69c
+#66473C
+#998179
+*/
+body{
+    background-color: #CCB0A5;
+    color:#331C14
+}
+header{
+    background-color: #FFB69c;
+    /*color: #331C14;*/
+    color: whitesmoke;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 2px solid #331C14;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 700;
+    font-style: italic;
+}
+h1{
+    font-weight: 400;
+}
+#navbar{
+    overflow:hidden;
+    background-color: #998179;
+    color: #331C14;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border-bottom: 15px solid #331C14;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 400;
+    font-style: italic;
+}
+footer{
+    font-weight: 400;
+    text-align:right;
+    padding-right: 10px;
+    font-style: italic;
+    background-color: #FFB69c;
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+}
+footer p{
+    font-size: 0.75em;
+    font-weight: 400;
+    font-style: italic;
+    padding-right: 10px;
+    
+}
+footer:hover a{
+    background-color: #998179;
+    color: #FFB69c;
+    text-decoration: underline;
+}
+a{
+    color: #66473C;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    color: #FFB69c;
+} 
+
+#container{
+    margin-bottom: 100px;
+   
+    margin-top:2;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 50px;
+}
+
+    
+#card {
+    width: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: .3s;
+}
+#card-title{
+    text-align: center;
+    font-size: 2em;
+    font-weight: 400;
+    background-color:#998179 ;
+}
+#card-title-new{
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: 400;
+    background-color:#ddd;
+
+}
+#card-content{
+    padding: 2px 16px;
+    background-color: antiquewhite;
+}
+#card-content a:hover{
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}   
+#card-movie{
+    display:flex;
+    width: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: .3s;
+}
+#card-content-movie{
+    display:flex;
+    background-color: antiquewhite;
+}
+table{
+    border:2px solid #ddd; 
+    border-collapse: collapse;
+}
+
+th{
+padding-top: 12px;
+padding-bottom: 12px;
+text-align: left;
+} 
+
+
+td{
+    border: 1px solid #ddd; 
+    padding: 8px;
+}
