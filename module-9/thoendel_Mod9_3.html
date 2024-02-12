@@ -1,0 +1,74 @@
+<!--Phillip Thoendel Module 9.3-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Phillip Thoendel">
+    <meta name="description" content="Module 2.2">
+    <link rel="stylesheet" type="text/css" href="thoendel_Mod2_2.css">
+
+    <title>CSD 340 Development with HTML and CSS</title>
+    <script>
+        var madLib1 = "potheads";
+        var madLib2 = "crusader";
+        var madLib3 = "the machine breaks down";
+        var madLib4 = "lonesome";
+    </script>
+</head>
+<body>
+  
+    <h1>Assignment 9.3: JavaScript - Part 1</h1>
+
+    <h2>Barne's Speech,</h2>
+
+    <div id=”container”>
+
+    <h5 class="intro"> 
+        From the 5 time academy award winner including best picture, the 1986 film directed by Oliver Stone...Platoon</h5>
+    
+       <p>Talking about killing?</p>
+       
+       <p>Hmm?</p>
+     
+     <p> You all experts? You all know about killing? I'd like to hear about it, <span id="madLib1" style = "color:#8B0000;">________</span>.</p>
+    
+        <p>You smoking this #### so as to escape from reality? me, I don't need this ####. I am reality. 
+           There's the way it ought to be, and there's the way it is. Elias was full of ####. Elias was 
+           a <span id="madLib2" style = "color:#8B0000;">_______</span>.</p> 
+
+        <p>Now, I got no fight with any man who does what he's told, but when he don't... 
+            <span id="madLib3" style = "color:#8B0000;">________</span>. And when the machine breaks down we break down.
+           And I ain't gonna allow that...from any of you. Not one.</p>
+
+           <p>You all love Elias. You wanna kick ass. Yeah...Well, here I am, all by my <span id="madLib4" style = "color:#8B0000;">________</span>.
+              And there ain't nobody gonna know. Six of you boys against me. Kill me.
+          </p>
+          <button type="button"
+          onclick="document.getElementById('madLib1').innerHTML = madLib1">potheads
+          </button>
+         
+          <button type="button"
+          onclick="document.getElementById('madLib2').innerHTML = madLib2">crusader
+          </button>
+
+          <button type="button"
+          onclick="document.getElementById('madLib3').innerHTML = madLib3">the machine breaks down
+          </button>
+
+          <button type="button"
+          onclick="document.getElementById('madLib4').innerHTML = madLib4">lonesome
+          </button>
+
+
+
+       <hr/>  
+       <address><p><a href="https://www.bellevue.edu/about/about-us/locations">Bellevue University</a></p>
+        <p>1000 Galvin Rd S</p> 
+        <p>Bellevue NE, 68005</p> 
+        <a href="../index.html">Back to main</a>
+         </address>
+         
+        </div>
+</body>
+</html>
