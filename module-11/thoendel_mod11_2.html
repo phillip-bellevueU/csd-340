@@ -1,0 +1,55 @@
+
+<!--Phillip Thoendel-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSD 340 Web Development with HTML and CSS</title>
+    <script> //js to allow buttons to function
+        let entries = [];
+    
+        function addEntry() {
+          const entry = document.getElementById("entry").value;
+          entries.push(entry);
+          alert(`Added "${entry}" at position ${entries.length}`);
+          document.getElementById("entry").value = "";
+        }
+    
+        function deleteLastEntry() {
+          if (entries.length === 0) {
+            alert("Nothing to delete.");
+          } else {
+            const deletedEntry = entries.pop();
+            alert(`Deleted "${deletedEntry}" from position ${entries.length + 1}`);
+          }
+        }
+    
+        function displayEntries() {
+          const list = document.getElementById("entryList");
+          list.innerHTML = "";
+          entries.forEach((entry, index) => {
+            const li = document.createElement("li");
+            li.textContent = `${index + 1}. ${entry}`;
+            list.appendChild(li);
+          });
+        }
+      </script>
+</head>
+<body>
+    <h1>Assignment 11.2: JavaScript - Part 3</h1>
+    <!--Code to add buttons and talk to script-->
+    <input type="text" id="entry" placeholder="Enter info">
+    <button onclick="addEntry()">Add</button>
+    <button onclick="deleteLastEntry()">Delete</button>
+    <button onclick="displayEntries()">Display</button>
+
+    <!--list of entries-->
+    <ul id="entryList"></ul>
+  
+  </body>
+  </html>
+
+    <a href="../index.html">Back To Landing Page</a>
+</body>
+</html>
