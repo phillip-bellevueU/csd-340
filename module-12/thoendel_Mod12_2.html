@@ -1,0 +1,71 @@
+<!--Phillip Thoendel Module 12-2 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="thoendel_Mod12_2.css">
+
+    <title>CSD 340 Web Development with HTML and CSS</title>
+    <script>
+        var bookArray = ["1. Hitchhiker's Guide to the Galaxy", "2. Dharma Bums", "3. I am Legend", 
+                         "4. The Real Frank Zappa Book", "5. Ender's Game", "6. La Technique", 
+                         "7. Killer Pentatonics", "8. Big Sur", "9. The Rock Snob's Dictionary", 
+                         "10. The Hobbit"];
+          
+        //function to show array in order
+        function inc() {
+            var list = document.getElementById('bookList');
+            list.innerHTML = '';
+
+            //loop steps through array
+            for(var i = 0; i < bookArray.length; i++) {
+                var li = document.createElement('li');
+                li.textContent = bookArray[i];
+                list.appendChild(li);
+            }
+        }
+
+        //function to show array in reverse order
+        function revInc() {
+            //make list from array
+            var list = document.getElementById('bookList');
+            list.innerHTML = '';
+
+            //loop steps through array in reverse
+            for(var i = bookArray.length - 1; i >= 0; i--) {
+                var li = document.createElement('li');
+                li.textContent = bookArray[i];
+                list.appendChild(li);
+            }
+        }
+    </script>    
+</head>                  
+<body>
+    <div id="container">
+        <h1>Assignment 12.2: JavaScript - Part 4</h1>
+        <div class="left-div">
+            <h3>Top 10 Favorite Books</h3>
+            <div id="buttons">
+                <!--buttons to call functions-->
+                <button onclick="inc()">Top to Bottom</button>
+                <button onclick="revInc()">Bottom to Top</button>
+                <br>
+            </div>
+            <ul class = "book" id="bookList">
+            </ul>
+        </div> 
+    </div>
+   <div class="right-div"><h3>5 Things I've Learned Since the Course Started</h3>
+    <ul id = "learned">
+        <li>Good design is not that subjective.</li>
+        <li>How to make a Github landing page</li>
+        <li>People can only store 4 things in working memory</li>
+        <li>Colorblind people can often see camoflage better than others</li>
+        <li>Thin borders can help organize a page</li>
+       </ul>
+   </div>
+   <div class="bottom-div"><a href="../index.html">Back To Landing Page</a></div>
+    </div>
+</body>
+</html>
